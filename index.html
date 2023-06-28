@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+     <style>
+         .container{
+             height: 530px;
+             width: 330px;
+             background-color: black;
+             margin-left: auto;
+             margin-right: auto;
+             display: block;
+             margin-top: 40px;
+             border-radius: 20px;
+             padding: 10px;
+         }
+         .calculator-screen{
+             font-size: 40px;
+             width: 290px;
+             height: 80px;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 25px;
+             padding: 5px;
+             background-color: rgb(113, 223, 109);
+             text-align: left;
+             color: rgb(15, 11, 5);
+         }
+         .cal-button{
+             height: 50px;
+             width: 50px;
+             font-size: 20px;
+             margin-top: 30px;
+             border-radius:0px 5px 10px 0px;
+             border: none;
+             background-color:white;
+             color: black;
+             box-shadow: 3px 5px rgb(114, 75, 24);
+             cursor: pointer;
+         }
+         .bg-color{
+           background-color:orangered;
+         }
+
+         .back-color{
+          background-color:rgb(54, 16, 190);
+         }
+         .calculator-button{
+         
+           display: flex;
+           justify-content: space-evenly;
+         }
+         .cal-button:hover{
+             background-color:rgb(119, 114, 114);
+             transition: 1s;
+         }
+         .back-color:hover{
+             background-color:rgb(35, 77, 99);
+             transition: 1s;
+         }
+         .bg-color:hover{
+             background-color: rgb(114, 21, 21);
+         }
+         .brand{
+             text-align: end;
+             margin-right: 15px;
+             margin-top: 10pxpxpx;
+             color:white;
+         }
+         .small-screen-container{
+             height: 30px;
+             width: 70px;
+             background-color: rgb(46, 4, 4);
+             display: flex;
+
+             margin-left: 248px;
+             margin-top: 10px;
+         }
+         .small-screen{
+             height: 25px;
+             width: 70px;
+             background-color: rgb(46, 4, 4);
+             border: 0.1px solid rgb(194, 166, 166);
+             
+         }
+     </style>
+        <body>
+            
+            <div class="container">
+                <p class="brand">Orpat</p>
+                <input type="text" class="calculator-screen">
+                <div class="small-screen-container">
+                 <div class="small-screen"></div>
+                <div class="small-screen"></div>
+                <div class="small-screen"></div>
+                <div class="small-screen"></div>
+                </div>
+                <div class="calculator-button">
+                    <button class="cal-button">7</button>
+                    <button class="cal-button">8</button>
+                    <button class="cal-button">9</button>
+                    <button class="cal-button bg-color">DEL</button> 
+                    <button class="cal-button bg-color">AC</button>
+                     
+                </div>
+                <div class="calculator-button">
+                    <button class="cal-button">4</button>
+                    <button class="cal-button">5</button>
+                    <button class="cal-button">6</button>
+                    <button class="cal-button back-color">x</button>
+                    <button class="cal-button back-color">/</button>
+                      
+                </div>
+                <div class="calculator-button">
+                    <button class="cal-button">1</button>
+                    <button class="cal-button">2</button>
+                    <button class="cal-button">3</button> 
+                    <button class="cal-button back-color">+</button>
+                    <button class="cal-button back-color">-</button>
+                     
+                </div>
+                <div class="calculator-button">
+                    <button class="cal-button">0</button>
+                    <button class="cal-button ">.</button>
+                    <button class="cal-button ">x10<sup>x</sup></button>
+                    <button class="cal-button back-color">Ans</button>
+                    <button class="cal-button back-color">=</button>
+                     
+                </div>
+                
+                </div>
+            
+                
+        </body>
+    </head>
+</html>
